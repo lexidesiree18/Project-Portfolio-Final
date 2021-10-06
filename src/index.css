@@ -1,0 +1,145 @@
+:root{
+    --bg-color: #78080B;
+    --bg-shadow-color: #160F0F;
+    --bg-accent-color: #E00007;
+    --primary-color: #fff;
+    --drop-shadow: #E00007;
+    --bg-color-transparent: rgba(138, 21, 21, 0.6);
+}
+
+body {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#content {
+    display: flex;
+}
+
+/* LEFT SIDE ELEMENTS */
+#left-elements{
+    background: linear-gradient(
+        180deg,
+        #160F0F 0%,
+        #78080B 48.44%,
+        #E00007 100%
+    );
+    height: 1024px;
+    display: block;
+}
+
+#name {
+    color:var(--primary-color);
+    text-shadow: #E00007 (8px, 4px, 6px);
+    height: 140px;
+    font-weight: 400;
+    font-family: "Rancho";
+    font-style: "Regular";
+    font-size: 60px;
+    line-height: 100% 112px;
+    margin-top: 190px;
+}
+
+.information-text {
+    margin-bottom: 50px;
+}
+
+#rose {
+    width: 218.3px;
+    height: 498.59;
+    left: 557.52px;
+    top: 577px;
+    transform: matrix(-0.98, 0.21, 0.21, 0.98, 0, 0);
+    margin-top: 20%;
+}
+
+
+/* RIGHT SIDE ELEMENTS */
+#right-elements{
+    background-image: linear-gradient(
+        180deg, 
+        #E00007 0%,
+        #78080B 48.44%, 
+        #160F0F 100%
+    );
+    background-position-x: 537px;
+    left: 537px;
+}
+
+/* BUTTONS */
+#buttons {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.page-button {
+    width: 50%;
+    height: 64px;
+    left: 913px;
+    top: 83px;
+    background-color: var(--bg-color-transparent);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7%;
+    box-shadow: 6px 6px 6px var(--bg-shadow-color);
+}
+
+.page-button h1 {
+    color: var(--primary-color);
+    text-shadow: 3px 2px 0px var(--bg-shadow-color);
+    width:43%;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* #projects-page{
+    width: 50%;
+    height: 100%;
+} */
+
+
+#resume-pagetext{
+    font-size: 25px;
+    text-shadow: 3px 2px 0px var(--bg-shadow-color);
+}
+
+#waving-hand {
+    width: 10%;
+    height: 46%;
+}
+
+#intro-heading-div{
+    display:flex;
+    margin-top: 150px;
+}
+#intro-heading {
+    font-family: "Rancho";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px, 6px, 4px #160F0F;
+    margin-bottom: 98px;
+    
+}
+
+#intro-paragrapgh {
+   width: 80%;
+    height: 3.5%;
+    left: 558px;
+    top: 473px;
+    font-family: "Rancho";
+    font-style: normal;
+    font-weight:normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px, 6px, 4px #160F0F;
+    
+}
